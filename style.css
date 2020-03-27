@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 10px;
+}
+
+.hand {
+  width: 50%;
+  height: 5px;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  transform: rotate(90deg);
+  transform-origin: 99%;
+}
+
+.clock-face {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.clock {
+  width: 30rem;
+  height: 30rem;
+  border: 20px solid white;
+  border-radius: 999px;
+  background-color: whitesmoke;
+  margin: 50px auto;
+  position: relative;
+  padding: 2rem;
+}
+body {
+  background-image: url('./hìnhbien.jpg');
+  background-size: cover;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
